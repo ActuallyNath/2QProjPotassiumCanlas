@@ -57,7 +57,7 @@ img.logo
 	margin-top: -70px;
 	margin-bottom: -70px;
 	overflow: hidden;
-	position: fixed;
+	position: absolute;
 }
 
 img.homeicon
