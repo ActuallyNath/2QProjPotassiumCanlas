@@ -43,21 +43,13 @@ img.logo
 	height: 210px;
 	width: 175;
 	display: block;
-	position: absolute;
+	position: relative;
 }
 
 .logo
 {
 	margin-bottom: -140px;
 	overflow: hidden;
-}
-
-.logo:hover
-{
-	margin-top: -70px;
-	margin-bottom: -70px;
-	overflow: hidden;
-	position: absolute;
 }
 
 img.homeicon
@@ -172,9 +164,31 @@ img.product
 	90% {margin-left: -3600px;}
 }
 
+span.separator
+{
+	width: 1000px;
+	height: 25px;
+	background: #fcfcfc;
+}
+
+.process
+{
+	width: 1000px;
+	height: 200px;
+	border-radius: 25px;
+	background: #262626;
+}
+
+#process
+{
+	font-family: TextFont;
+	font-size: 15px;
+	color: #FDFBFB;
+	letter-spacing: 1px;
+}
 
 video.speedpaint
 {
-	height: 400px;
+	height: 250px;
 	width: auto;
 }
