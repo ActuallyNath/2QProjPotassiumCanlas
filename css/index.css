@@ -160,8 +160,6 @@ img.product
 	width: 4800px;
 	-webkit-animation: slide 30s ease infinite;
 }
-	
-
 
 @-webkit-keyframes slide
 {
@@ -172,4 +170,11 @@ img.product
 	70% {margin-left: -2400px;}
 	80% {margin-left: -3600px;}
 	90% {margin-left: -3600px;}
+}
+
+
+video.speedpaint
+{
+	height: 400px;
+	width: auto;
 }
