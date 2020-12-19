@@ -43,7 +43,7 @@ img.logo
 	height: 210px;
 	width: 175;
 	display: block;
-	position: relative;
+	position: absolute;
 }
 
 .logo
