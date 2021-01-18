@@ -7,19 +7,19 @@ body
 @font-face
 {
 	font-family: CursiveFont;
-	src: url(Cursive3.ttf);
+	src: url(../mmfiles/Cursive3.ttf);
 }
 
 @font-face
 {
 	font-family: TextFont;
-	src: url(Text.otf);	
+	src: url(../mmfiles/Text.otf);	
 }
 
 @font-face
 {
 	font-family: TitleFont;
-	src: url(TextBold.otf);
+	src: url(../mmfiles/TextBold.otf);
 }
 
 a
@@ -40,16 +40,12 @@ a
 
 img.logo
 {
-	height: 210px;
+	height: 70px;
 	width: 175;
 	display: block;
 	position: relative;
-}
-
-.logo
-{
-	margin-bottom: -140px;
-	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 img.homeicon
@@ -61,6 +57,7 @@ img.homeicon
 	margin-left: 1%;
 	position: absolute;
 }
+
 
 .navigation
 {
@@ -164,31 +161,151 @@ img.product
 	90% {margin-left: -3600px;}
 }
 
-span.separator
-{
-	width: 1000px;
-	height: 25px;
-	background: #fcfcfc;
-}
-
 .process
 {
-	width: 1000px;
-	height: 200px;
-	border-radius: 25px;
-	background: #262626;
+	width: 100%;
+	height: auto;
+	background-color: #E1DFEB;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#processtitle
+{
+	font-family: TitleFont;
+	font-size: 30px;
+	color: #2A2A2A;
+	letter-spacing: 4px;
 }
 
 #process
 {
 	font-family: TextFont;
 	font-size: 15px;
-	color: #FDFBFB;
+	font-weight: bold;
+	color: #2A2A2A;
 	letter-spacing: 1px;
+	line-height: 16px;
 }
 
 video.speedpaint
 {
-	height: 250px;
+	height: 450px;
 	width: auto;
+}
+
+.meettheartist
+{
+	width: 100%;
+	height: auto;
+	background-color: #E1DFEB;
+	margin-top: 70px;
+	margin-bottom: 150px;
+}
+
+#artisttitle
+{
+	font-family: TitleFont;
+	font-size: 30px;
+	color: #2A2A2A;
+	letter-spacing: 4px;
+}
+
+#artistdes
+{
+	font-family: TextFont;
+	font-size: 15px;
+	font-weight: bold;
+	color: #2A2A2A;
+	letter-spacing: 1px;
+	line-height: 16px;
+}
+
+img.artist
+{
+	height: 450px;
+	width: auto;
+}
+
+.footer
+{
+	width: 100%;
+	height: 85px;
+	background-color: #262626;
+}
+.socials
+{
+	height: 40px;
+	width: auto;
+	padding-top: 5px;
+}
+
+.artfol
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: 0px 0px;
+	display: inline-block;
+}
+
+.facebook
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -50px 0px;
+	display: inline-block;
+}
+
+.instagram
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -100px 0px;
+	display: inline-block;
+}
+
+
+.tiktok
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: 0px -50px;
+	display: inline-block;
+}
+
+.twitter
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -50px -50px;
+	display: inline-block;
+}
+
+.youtube
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -100px -50px;
+	display: inline-block;
+}
+
+#cc
+{
+	font-family: TextFont;
+	font-size: 15px;
+	color: #F2F2F2;
+}
+
+#coffee
+{
+	font-family: TitleFont;
+	font-size: 15px;
+	color: #262626;
+	padding-bottom: 10px;
 }
