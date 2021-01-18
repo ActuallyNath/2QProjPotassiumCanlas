@@ -1,0 +1,311 @@
+body
+{
+	background-color: #fcfcfc;
+	margin: 0;
+}
+	
+@font-face
+{
+	font-family: CursiveFont;
+	src: url(../mmfiles/Cursive3.ttf);
+}
+
+@font-face
+{
+	font-family: TextFont;
+	src: url(../mmfiles/Text.otf);	
+}
+
+@font-face
+{
+	font-family: TitleFont;
+	src: url(../mmfiles/TextBold.otf);
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.header
+{
+	width: 100%;
+	height: 70px;
+	background-color: #262626;
+	position: sticky;
+	top: 0;
+	z-index: 0;
+}
+
+img.logo
+{
+	height: 70px;
+	width: 175;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.homeicon
+{
+	height: 30px;
+	width: auto;
+	padding-top: 20px;
+	display: block;
+	margin-left: 1%;
+	position: absolute;
+}
+
+
+.navigation
+{
+	width: 100%;
+	height: auto;
+	background-color: #E1DFEB;
+}
+
+#nav
+{
+	text-align: center;
+	font-family: TextFont;
+	font-size: 15px;
+	color: #9492a1;
+	padding-right: 40px;
+	padding-top: 10px;
+}
+
+.banner
+{
+	width: 100%;
+	height: auto;
+	background-color: #E1DFEB;
+	z-index: 0;
+}
+
+#title
+{
+	font-family: CursiveFont;
+	font-size: 90px;
+	color: #2A2A2A;
+	margin-bottom: -40px;
+	margin-top: -20px;
+}
+
+#title2
+{
+	font-family: TitleFont;
+	font-size: 30px;
+	color: #2A2A2A;
+	margin-top: -10px;
+	letter-spacing: 2px;
+}
+
+#subtitle
+{
+	font-family: TextFont;
+	font-size: 15px;
+	color: #2A2A2A;
+	letter-spacing: 1px;
+}
+
+img.banner
+{
+	height: 500px;
+	width: auto;
+}
+
+#toptitle
+{
+	font-family: TitleFont;
+	font-size: 30px;
+	color: #2A2A2A;
+	letter-spacing: 4px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+img.product
+{
+	height: 300px;
+	width: 300px;
+	float: left;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.slideshow
+{
+	overflow: hidden;
+	display: center;
+	height: 400px;
+	width: 1200px;
+	margin: auto;
+}
+
+.featured
+{
+	width: 4800px;
+	-webkit-animation: slide 30s ease infinite;
+}
+
+@-webkit-keyframes slide
+{
+	20% {margin-left: 0px;}
+	30% {margin-left: -1200px;}
+	50% {margin-left: -1200px;}
+	60% {margin-left: -2400px;}
+	70% {margin-left: -2400px;}
+	80% {margin-left: -3600px;}
+	90% {margin-left: -3600px;}
+}
+
+.process
+{
+	width: 100%;
+	height: auto;
+	background-color: #E1DFEB;
+	margin-top: 70px;
+	margin-bottom: 70px;
+}
+
+#processtitle
+{
+	font-family: TitleFont;
+	font-size: 30px;
+	color: #2A2A2A;
+	letter-spacing: 4px;
+}
+
+#process
+{
+	font-family: TextFont;
+	font-size: 15px;
+	font-weight: bold;
+	color: #2A2A2A;
+	letter-spacing: 1px;
+	line-height: 16px;
+}
+
+video.speedpaint
+{
+	height: 450px;
+	width: auto;
+}
+
+.meettheartist
+{
+	width: 100%;
+	height: auto;
+	background-color: #E1DFEB;
+	margin-top: 70px;
+	margin-bottom: 150px;
+}
+
+#artisttitle
+{
+	font-family: TitleFont;
+	font-size: 30px;
+	color: #2A2A2A;
+	letter-spacing: 4px;
+}
+
+#artistdes
+{
+	font-family: TextFont;
+	font-size: 15px;
+	font-weight: bold;
+	color: #2A2A2A;
+	letter-spacing: 1px;
+	line-height: 16px;
+}
+
+img.artist
+{
+	height: 450px;
+	width: auto;
+}
+
+.footer
+{
+	width: 100%;
+	height: 85px;
+	background-color: #262626;
+}
+.socials
+{
+	height: 40px;
+	width: auto;
+	padding-top: 5px;
+}
+
+.artfol
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: 0px 0px;
+	display: inline-block;
+}
+
+.facebook
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -50px 0px;
+	display: inline-block;
+}
+
+.instagram
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -100px 0px;
+	display: inline-block;
+}
+
+
+.tiktok
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: 0px -50px;
+	display: inline-block;
+}
+
+.twitter
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -50px -50px;
+	display: inline-block;
+}
+
+.youtube
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -100px -50px;
+	display: inline-block;
+}
+
+#cc
+{
+	font-family: TextFont;
+	font-size: 15px;
+	color: #F2F2F2;
+}
+
+#coffee
+{
+	font-family: TitleFont;
+	font-size: 15px;
+	color: #262626;
+	padding-bottom: 10px;
+}
