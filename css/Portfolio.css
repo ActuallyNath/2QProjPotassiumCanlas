@@ -63,7 +63,6 @@ img.homeicon
 {
 	width: 100%;
 	height: auto;
-	background-color: #E1DFEB;
 }
 
 #nav
@@ -71,160 +70,28 @@ img.homeicon
 	text-align: center;
 	font-family: TextFont;
 	font-size: 15px;
-	color: #9492a1;
+	color: #262626;
 	padding-right: 40px;
 	padding-top: 10px;
 }
 
-.banner
-{
-	width: 100%;
-	height: auto;
-	background-color: #E1DFEB;
-	z-index: 0;
-}
-
 #title
 {
-	font-family: CursiveFont;
-	font-size: 90px;
-	color: #2A2A2A;
-	margin-bottom: -40px;
-	margin-top: -20px;
-}
-
-#title2
-{
 	font-family: TitleFont;
-	font-size: 30px;
-	color: #2A2A2A;
-	margin-top: -10px;
-	letter-spacing: 2px;
-}
-
-#subtitle
-{
-	font-family: TextFont;
-	font-size: 15px;
-	color: #2A2A2A;
-	letter-spacing: 1px;
-}
-
-img.banner
-{
-	height: 500px;
-	width: auto;
-}
-
-#toptitle
-{
-	font-family: TitleFont;
-	font-size: 40px;
+	font-size: 45px;
 	color: #2A2A2A;
 	letter-spacing: 4px;
-	padding-top: 40px;
-	padding-bottom: 40px;
+	padding-top: 60px;
+	padding-bottom: 20px;
 }
 
-img.product
+img.art
 {
-	height: 300px;
+	height: auto;
 	width: 300px;
-	float: left;
-	padding-left: 50px;
 	padding-right: 50px;
-}
-
-.slideshow
-{
-	overflow: hidden;
-	display: center;
-	height: 400px;
-	width: 1200px;
-	margin: auto;
-}
-
-.featured
-{
-	width: 4800px;
-	-webkit-animation: slide 30s ease infinite;
-}
-
-@-webkit-keyframes slide
-{
-	20% {margin-left: 0px;}
-	30% {margin-left: -1200px;}
-	50% {margin-left: -1200px;}
-	60% {margin-left: -2400px;}
-	70% {margin-left: -2400px;}
-	80% {margin-left: -3600px;}
-	90% {margin-left: -3600px;}
-}
-
-.process
-{
-	width: 100%;
-	height: auto;
-	background-color: #E1DFEB;
-	margin-top: 70px;
-	margin-bottom: 70px;
-}
-
-#processtitle
-{
-	font-family: TitleFont;
-	font-size: 30px;
-	color: #2A2A2A;
-	letter-spacing: 4px;
-}
-
-#process
-{
-	font-family: TextFont;
-	font-size: 15px;
-	font-weight: bold;
-	color: #2A2A2A;
-	letter-spacing: 1px;
-	line-height: 16px;
-}
-
-video.speedpaint
-{
-	height: 450px;
-	width: auto;
-}
-
-.meettheartist
-{
-	width: 100%;
-	height: auto;
-	background-color: #E1DFEB;
-	margin-top: 70px;
-	margin-bottom: 150px;
-}
-
-#artisttitle
-{
-	font-family: TitleFont;
-	font-size: 30px;
-	color: #2A2A2A;
-	letter-spacing: 4px;
-}
-
-#artistdes
-{
-	font-family: TextFont;
-	font-size: 15px;
-	font-weight: bold;
-	color: #2A2A2A;
-	letter-spacing: 1px;
-	line-height: 16px;
-}
-
-img.artist
-{
-	height: 450px;
-	width: auto;
+	padding-left: 50px;
+	padding-bottom: 100px;
 }
 
 .footer
