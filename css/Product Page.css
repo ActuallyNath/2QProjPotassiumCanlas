@@ -1,0 +1,212 @@
+body
+{
+	background-color: #fcfcfc;
+	margin: 0;
+}
+	
+@font-face
+{
+	font-family: CursiveFont;
+	src: url(../mmfiles/Cursive3.ttf);
+}
+
+@font-face
+{
+	font-family: TextFont;
+	src: url(../mmfiles/Text.otf);	
+}
+
+@font-face
+{
+	font-family: TitleFont;
+	src: url(../mmfiles/TextBold.otf);
+}
+
+a
+{
+	text-decoration: none;
+	color: inherit;
+}
+
+.header
+{
+	width: 100%;
+	height: 70px;
+	background-color: #262626;
+	position: sticky;
+	top: 0;
+	z-index: 0;
+}
+
+img.logo
+{
+	height: 70px;
+	width: 175;
+	display: block;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.homeicon
+{
+	height: 30px;
+	width: auto;
+	padding-top: 20px;
+	display: block;
+	margin-left: 1%;
+	position: absolute;
+}
+
+
+.navigation
+{
+	width: 100%;
+	height: auto;
+	padding-bottom: 100px;
+}
+
+#nav
+{
+	text-align: center;
+	font-family: TextFont;
+	font-size: 15px;
+	color: #262626;
+	padding-right: 40px;
+	padding-top: 10px;
+}
+
+img.product
+{
+	height: auto;
+	width: 350px;
+}
+
+th
+{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+	
+#prodtitle
+{
+	font-family: TitleFont;
+	font-size: 35px;
+	color: #2A2A2A;
+	letter-spacing: 1px;
+}
+
+#proddes
+{
+	font-family: TextFont;
+	font-size: 20px;
+	font-weight: bold;
+	color: #2A2A2A;
+	letter-spacing: 1px;
+	line-height: 22px;
+}
+
+button
+{
+	font-family: TitleFont;
+	font-size: 25px;
+	color: #f2f2f2;
+	letter-spacing: 1px;
+	background-color: #2A2A2A;
+	border-radius: 15px;
+	border: none;
+	padding: 8px 15px;
+	margin-top: 65px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 100px;
+}
+
+button:hover
+{
+	background-color: #5e5e5e;
+	color: #c4c4c4;
+}
+
+.footer
+{
+	width: 100%;
+	height: 85px;
+	background-color: #262626;
+}
+.socials
+{
+	height: 40px;
+	width: auto;
+	padding-top: 5px;
+}
+
+.artfol
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: 0px 0px;
+	display: inline-block;
+}
+
+.facebook
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -50px 0px;
+	display: inline-block;
+}
+
+.instagram
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -100px 0px;
+	display: inline-block;
+}
+
+
+.tiktok
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: 0px -50px;
+	display: inline-block;
+}
+
+.twitter
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -50px -50px;
+	display: inline-block;
+}
+
+.youtube
+{
+	height: 50px;
+	width: 50px;
+	background: url('../images/icons/icons.png');
+	background-position: -100px -50px;
+	display: inline-block;
+}
+
+#cc
+{
+	font-family: TextFont;
+	font-size: 15px;
+	color: #F2F2F2;
+}
+
+#coffee
+{
+	font-family: TitleFont;
+	font-size: 15px;
+	color: #262626;
+	padding-bottom: 10px;
+}
