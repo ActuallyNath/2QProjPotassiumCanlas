@@ -91,10 +91,11 @@ img.product
 	width: 300px;
 }
 
-th
+td
 {
 	padding-left: 40px;
 	padding-right: 40px;
+	text-align: center;
 }
 
 table.row

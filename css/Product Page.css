@@ -82,10 +82,11 @@ img.product
 	width: 350px;
 }
 
-th
+td
 {
 	padding-left: 30px;
 	padding-right: 30px;
+	text-align: center;
 }
 	
 #prodtitle
