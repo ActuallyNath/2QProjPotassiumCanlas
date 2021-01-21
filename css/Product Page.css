@@ -82,7 +82,7 @@ img.product
 	width: 350px;
 }
 
-th
+th.column
 {
 	padding-left: 30px;
 	padding-right: 30px;

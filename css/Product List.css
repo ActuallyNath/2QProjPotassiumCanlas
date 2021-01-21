@@ -91,7 +91,7 @@ img.product
 	width: 300px;
 }
 
-th
+th.column
 {
 	padding-left: 40px;
 	padding-right: 40px;
